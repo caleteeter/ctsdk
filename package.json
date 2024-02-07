@@ -1,0 +1,14 @@
+{
+  "name": "@caleteeter/ctsdk",
+  "version": "1.0.0",
+  "description": "Cale's SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": {
+    "name": "Cale Teeter",
+    "email": "cale.teeter@microsoft.com"
+  }
+  "license": "MIT"
+}
