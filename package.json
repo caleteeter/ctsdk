@@ -1,9 +1,10 @@
 {
   "name": "@caleteeter/ctsdk",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Cale's SDK",
   "main": "dist/index.js",
   "files": [
+    "resources/**/*",
     "dist/**/*"
   ],
   "scripts": {
@@ -14,5 +15,11 @@
     "name": "Cale Teeter",
     "email": "cale.teeter@microsoft.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.16"
+  },
+  "dependencies": {
+    "extract-zip": "^2.0.1"
+  }
 }
