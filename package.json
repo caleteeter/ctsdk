@@ -3,7 +3,11 @@
   "version": "1.0.3",
   "description": "Cale's SDK",
   "main": "index.js",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
+    "build": "tsc -p ./",
     "test": "exit 0"
   },
   "author": {
