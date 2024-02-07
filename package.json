@@ -1,8 +1,8 @@
 {
   "name": "@caleteeter/ctsdk",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Cale's SDK",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "dist/**/*"
   ],
