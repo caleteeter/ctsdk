@@ -6,5 +6,5 @@ export function hello(): string {
 };
 
 export async function scaffold(projectLocation: string): Promise<void> {
-    await extract(join("resources", "testcontent.zip"), { dir: projectLocation });
+    await extract(join(__dirname, "..", "resources", "testcontent.zip"), { dir: projectLocation });
 } 
